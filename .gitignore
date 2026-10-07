@@ -1,0 +1,42 @@
+# Build artifacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / module cache leftovers
+go.work
+go.work.sum
+
+# Coverage
+coverage.txt
+coverage.html
+*.cover
+
+# Groundskeeper runtime state (per-target-repo, not part of the source tree)
+*.groundskeeper-state.json
+.groundskeeper/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python bytecode inside the demo fixture, in case it's ever executed locally
+testdata/**/__pycache__/
+testdata/**/*.pyc
+testdata/**/.pytest_cache/
+
+# Env / secrets
+.env
+.env.*

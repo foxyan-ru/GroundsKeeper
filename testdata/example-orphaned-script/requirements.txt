@@ -1,0 +1,8 @@
+# Pinned dependencies for campaign_summary.py.
+#
+# These are deliberately pinned to plausible, slightly-older real releases
+# so that Groundskeeper's demo has something realistic to detect and patch:
+# both of these had real subsequent releases and (at various points in their
+# history) real published security advisories against older versions.
+requests==2.28.1
+pandas==1.5.3

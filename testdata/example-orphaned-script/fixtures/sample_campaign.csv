@@ -1,0 +1,9 @@
+campaign,channel,date,impressions,clicks,spend,conversions
+spring_sale,email,2026-03-01,10000,450,120.50,32
+spring_sale,social,2026-03-01,25000,900,300.00,58
+spring_sale,email,2026-03-02,9800,410,118.00,29
+spring_sale,social,2026-03-02,26500,980,315.25,61
+summer_launch,email,2026-06-01,15000,600,200.00,40
+summer_launch,social,2026-06-01,40000,1500,500.00,95
+summer_launch,search,2026-06-01,8000,700,450.00,70
+summer_launch,email,2026-06-02,14200,580,195.50,38
